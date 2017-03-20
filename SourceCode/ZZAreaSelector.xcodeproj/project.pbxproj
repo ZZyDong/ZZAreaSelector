@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADADD2681E7FE29500142DA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADADD2671E7FE29500142DA7 /* main.m */; };
+		ADADD26B1E7FE29500142DA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADADD26A1E7FE29500142DA7 /* AppDelegate.m */; };
+		ADADD2711E7FE29500142DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADADD26F1E7FE29500142DA7 /* Main.storyboard */; };
+		ADADD2731E7FE29500142DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADADD2721E7FE29500142DA7 /* Assets.xcassets */; };
+		ADADD2761E7FE29500142DA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADADD2741E7FE29500142DA7 /* LaunchScreen.storyboard */; };
+		ADADD2921E7FE2D100142DA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADADD27F1E7FE2D100142DA7 /* ViewController.m */; };
+		ADADD2931E7FE2D100142DA7 /* UIColor+ZZAddressExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ADADD2831E7FE2D100142DA7 /* UIColor+ZZAddressExtension.m */; };
+		ADADD2941E7FE2D100142DA7 /* UILabel+ZZAddressExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ADADD2851E7FE2D100142DA7 /* UILabel+ZZAddressExtension.m */; };
+		ADADD2951E7FE2D100142DA7 /* UIView+ZZAddressExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ADADD2871E7FE2D100142DA7 /* UIView+ZZAddressExtension.m */; };
+		ADADD2961E7FE2D100142DA7 /* ChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = ADADD28B1E7FE2D100142DA7 /* ChineseToPinyin.m */; };
+		ADADD2971E7FE2D100142DA7 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = ADADD28E1E7FE2D100142DA7 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ADADD2981E7FE2D100142DA7 /* province.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADADD28F1E7FE2D100142DA7 /* province.txt */; };
+		ADADD2991E7FE2D100142DA7 /* ZZAreaSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = ADADD2911E7FE2D100142DA7 /* ZZAreaSelector.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADADD2631E7FE29500142DA7 /* ZZAreaSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZAreaSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADADD2671E7FE29500142DA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADADD2691E7FE29500142DA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADADD26A1E7FE29500142DA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADADD2701E7FE29500142DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADADD2721E7FE29500142DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADADD2751E7FE29500142DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADADD2771E7FE29500142DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADADD27E1E7FE2D100142DA7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADADD27F1E7FE2D100142DA7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADADD2821E7FE2D100142DA7 /* UIColor+ZZAddressExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZZAddressExtension.h"; sourceTree = "<group>"; };
+		ADADD2831E7FE2D100142DA7 /* UIColor+ZZAddressExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZZAddressExtension.m"; sourceTree = "<group>"; };
+		ADADD2841E7FE2D100142DA7 /* UILabel+ZZAddressExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZZAddressExtension.h"; sourceTree = "<group>"; };
+		ADADD2851E7FE2D100142DA7 /* UILabel+ZZAddressExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZZAddressExtension.m"; sourceTree = "<group>"; };
+		ADADD2861E7FE2D100142DA7 /* UIView+ZZAddressExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZZAddressExtension.h"; sourceTree = "<group>"; };
+		ADADD2871E7FE2D100142DA7 /* UIView+ZZAddressExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZZAddressExtension.m"; sourceTree = "<group>"; };
+		ADADD28A1E7FE2D100142DA7 /* ChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyin.h; sourceTree = "<group>"; };
+		ADADD28B1E7FE2D100142DA7 /* ChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyin.m; sourceTree = "<group>"; };
+		ADADD28D1E7FE2D100142DA7 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		ADADD28E1E7FE2D100142DA7 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		ADADD28F1E7FE2D100142DA7 /* province.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = province.txt; sourceTree = "<group>"; };
+		ADADD2901E7FE2D100142DA7 /* ZZAreaSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZAreaSelector.h; sourceTree = "<group>"; };
+		ADADD2911E7FE2D100142DA7 /* ZZAreaSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZAreaSelector.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADADD2601E7FE29500142DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADADD25A1E7FE29500142DA7 = {
+			isa = PBXGroup;
+			children = (
+				ADADD2651E7FE29500142DA7 /* ZZAreaSelector */,
+				ADADD2641E7FE29500142DA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADADD2641E7FE29500142DA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADADD2631E7FE29500142DA7 /* ZZAreaSelector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADADD2651E7FE29500142DA7 /* ZZAreaSelector */ = {
+			isa = PBXGroup;
+			children = (
+				ADADD27D1E7FE2D100142DA7 /* Demo */,
+				ADADD2801E7FE2D100142DA7 /* ZZAreaSelector */,
+				ADADD2661E7FE29500142DA7 /* Supporting Files */,
+			);
+			path = ZZAreaSelector;
+			sourceTree = "<group>";
+		};
+		ADADD2661E7FE29500142DA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADADD2691E7FE29500142DA7 /* AppDelegate.h */,
+				ADADD26A1E7FE29500142DA7 /* AppDelegate.m */,
+				ADADD26F1E7FE29500142DA7 /* Main.storyboard */,
+				ADADD2721E7FE29500142DA7 /* Assets.xcassets */,
+				ADADD2741E7FE29500142DA7 /* LaunchScreen.storyboard */,
+				ADADD2771E7FE29500142DA7 /* Info.plist */,
+				ADADD2671E7FE29500142DA7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADADD27D1E7FE2D100142DA7 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				ADADD27E1E7FE2D100142DA7 /* ViewController.h */,
+				ADADD27F1E7FE2D100142DA7 /* ViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		ADADD2801E7FE2D100142DA7 /* ZZAreaSelector */ = {
+			isa = PBXGroup;
+			children = (
+				ADADD2811E7FE2D100142DA7 /* Extensions */,
+				ADADD2881E7FE2D100142DA7 /* Other */,
+				ADADD2901E7FE2D100142DA7 /* ZZAreaSelector.h */,
+				ADADD2911E7FE2D100142DA7 /* ZZAreaSelector.m */,
+			);
+			path = ZZAreaSelector;
+			sourceTree = "<group>";
+		};
+		ADADD2811E7FE2D100142DA7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ADADD2821E7FE2D100142DA7 /* UIColor+ZZAddressExtension.h */,
+				ADADD2831E7FE2D100142DA7 /* UIColor+ZZAddressExtension.m */,
+				ADADD2841E7FE2D100142DA7 /* UILabel+ZZAddressExtension.h */,
+				ADADD2851E7FE2D100142DA7 /* UILabel+ZZAddressExtension.m */,
+				ADADD2861E7FE2D100142DA7 /* UIView+ZZAddressExtension.h */,
+				ADADD2871E7FE2D100142DA7 /* UIView+ZZAddressExtension.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ADADD2881E7FE2D100142DA7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				ADADD2891E7FE2D100142DA7 /* ChineseToPinyin */,
+				ADADD28C1E7FE2D100142DA7 /* JSONKit */,
+				ADADD28F1E7FE2D100142DA7 /* province.txt */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		ADADD2891E7FE2D100142DA7 /* ChineseToPinyin */ = {
+			isa = PBXGroup;
+			children = (
+				ADADD28A1E7FE2D100142DA7 /* ChineseToPinyin.h */,
+				ADADD28B1E7FE2D100142DA7 /* ChineseToPinyin.m */,
+			);
+			path = ChineseToPinyin;
+			sourceTree = "<group>";
+		};
+		ADADD28C1E7FE2D100142DA7 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				ADADD28D1E7FE2D100142DA7 /* JSONKit.h */,
+				ADADD28E1E7FE2D100142DA7 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADADD2621E7FE29500142DA7 /* ZZAreaSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADADD27A1E7FE29500142DA7 /* Build configuration list for PBXNativeTarget "ZZAreaSelector" */;
+			buildPhases = (
+				ADADD25F1E7FE29500142DA7 /* Sources */,
+				ADADD2601E7FE29500142DA7 /* Frameworks */,
+				ADADD2611E7FE29500142DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZAreaSelector;
+			productName = ZZAreaSelector;
+			productReference = ADADD2631E7FE29500142DA7 /* ZZAreaSelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADADD25B1E7FE29500142DA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Z;
+				TargetAttributes = {
+					ADADD2621E7FE29500142DA7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ADADD25E1E7FE29500142DA7 /* Build configuration list for PBXProject "ZZAreaSelector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADADD25A1E7FE29500142DA7;
+			productRefGroup = ADADD2641E7FE29500142DA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADADD2621E7FE29500142DA7 /* ZZAreaSelector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADADD2611E7FE29500142DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADADD2981E7FE2D100142DA7 /* province.txt in Resources */,
+				ADADD2761E7FE29500142DA7 /* LaunchScreen.storyboard in Resources */,
+				ADADD2731E7FE29500142DA7 /* Assets.xcassets in Resources */,
+				ADADD2711E7FE29500142DA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADADD25F1E7FE29500142DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADADD2921E7FE2D100142DA7 /* ViewController.m in Sources */,
+				ADADD2951E7FE2D100142DA7 /* UIView+ZZAddressExtension.m in Sources */,
+				ADADD26B1E7FE29500142DA7 /* AppDelegate.m in Sources */,
+				ADADD2961E7FE2D100142DA7 /* ChineseToPinyin.m in Sources */,
+				ADADD2941E7FE2D100142DA7 /* UILabel+ZZAddressExtension.m in Sources */,
+				ADADD2931E7FE2D100142DA7 /* UIColor+ZZAddressExtension.m in Sources */,
+				ADADD2991E7FE2D100142DA7 /* ZZAreaSelector.m in Sources */,
+				ADADD2971E7FE2D100142DA7 /* JSONKit.m in Sources */,
+				ADADD2681E7FE29500142DA7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADADD26F1E7FE29500142DA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADADD2701E7FE29500142DA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADADD2741E7FE29500142DA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADADD2751E7FE29500142DA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADADD2781E7FE29500142DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADADD2791E7FE29500142DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADADD27B1E7FE29500142DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZAreaSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zhang.yD.ZZAreaSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADADD27C1E7FE29500142DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZAreaSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zhang.yD.ZZAreaSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADADD25E1E7FE29500142DA7 /* Build configuration list for PBXProject "ZZAreaSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADADD2781E7FE29500142DA7 /* Debug */,
+				ADADD2791E7FE29500142DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADADD27A1E7FE29500142DA7 /* Build configuration list for PBXNativeTarget "ZZAreaSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADADD27B1E7FE29500142DA7 /* Debug */,
+				ADADD27C1E7FE29500142DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADADD25B1E7FE29500142DA7 /* Project object */;
+}
