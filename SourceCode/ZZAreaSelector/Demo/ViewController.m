@@ -63,9 +63,13 @@
 
 #pragma mark - ZZAreaSelectorDelegate
 - (void)areaSelector:(ZZAreaSelector *)areaSelector didSelectWithProvince:(NSString *)province city:(NSString *)city area:(NSString *)area {
+    
     if (areaSelector.tag == 100) {
-        
+        NSString *str = [NSString stringWithFormat:@"%@ - %@", province, city];
+        [_button1 setTitle:str forState:UIControlStateNormal];
     } else {
+        NSString *str = [NSString stringWithFormat:@"%@ - %@ - %@", province, city, area];
+        [_button2 setTitle:str forState:UIControlStateNormal];
         
     }
     NSLog(@"province - %@; city - %@; area - %@", province, city, area);
